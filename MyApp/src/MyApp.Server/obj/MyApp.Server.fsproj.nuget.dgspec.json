@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Server\\MyApp.Server.fsproj": {}
+  },
+  "projects": {
+    "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Client\\MyApp.Client.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Client\\MyApp.Client.fsproj",
+        "projectName": "MyApp.Client",
+        "projectPath": "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Client\\MyApp.Client.fsproj",
+        "packagesPath": "C:\\Users\\Papagaio\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Papagaio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Bolero": {
+              "target": "Package",
+              "version": "[0.13.23, )",
+              "generatePathProperty": true
+            },
+            "Bolero.Build": {
+              "target": "Package",
+              "version": "[0.13.23, )",
+              "generatePathProperty": true
+            },
+            "Bolero.HotReload": {
+              "target": "Package",
+              "version": "[0.13.8, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.JSInterop": {
+              "target": "Package",
+              "version": "[3.1.4, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Server\\MyApp.Server.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Server\\MyApp.Server.fsproj",
+        "projectName": "MyApp.Server",
+        "projectPath": "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Server\\MyApp.Server.fsproj",
+        "packagesPath": "C:\\Users\\Papagaio\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Papagaio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Client\\MyApp.Client.fsproj": {
+                "projectPath": "C:\\repo\\bolero-test\\MyApp\\src\\MyApp.Client\\MyApp.Client.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Bolero.HotReload.Server": {
+              "target": "Package",
+              "version": "[0.13.8, )",
+              "generatePathProperty": true
+            },
+            "Bolero.Server": {
+              "target": "Package",
+              "version": "[0.13.23, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.4, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.4, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.SignalR.Protocols.Json": {
+              "target": "Package",
+              "version": "[3.1.4, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

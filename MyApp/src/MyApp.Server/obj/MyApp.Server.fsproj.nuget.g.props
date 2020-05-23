@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Papagaio\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\Papagaio\.nuget\packages\fsharp.core\4.7.0</PkgFSharp_Core>
+    <PkgMicrosoft_Extensions_DependencyInjection_Abstractions Condition=" '$(PkgMicrosoft_Extensions_DependencyInjection_Abstractions)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\3.1.4</PkgMicrosoft_Extensions_DependencyInjection_Abstractions>
+    <PkgMicrosoft_AspNetCore_SignalR_Protocols_Json Condition=" '$(PkgMicrosoft_AspNetCore_SignalR_Protocols_Json)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.aspnetcore.signalr.protocols.json\3.1.4</PkgMicrosoft_AspNetCore_SignalR_Protocols_Json>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.aspnetcore.components.webassembly.runtime\3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Build Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Build)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.aspnetcore.components.webassembly.build\3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_Build>
+    <PkgMicrosoft_AspNetCore_Authorization Condition=" '$(PkgMicrosoft_AspNetCore_Authorization)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.aspnetcore.authorization\3.1.4</PkgMicrosoft_AspNetCore_Authorization>
+    <PkgBolero_Build Condition=" '$(PkgBolero_Build)' == '' ">C:\Users\Papagaio\.nuget\packages\bolero.build\0.13.23</PkgBolero_Build>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation Condition=" '$(PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.aspnetcore.mvc.razor.runtimecompilation\3.1.4</PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\Papagaio\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
+    <PkgBolero_Server Condition=" '$(PkgBolero_Server)' == '' ">C:\Users\Papagaio\.nuget\packages\bolero.server\0.13.23</PkgBolero_Server>
+    <PkgBolero_HotReload_Server Condition=" '$(PkgBolero_HotReload_Server)' == '' ">C:\Users\Papagaio\.nuget\packages\bolero.hotreload.server\0.13.8</PkgBolero_HotReload_Server>
+  </PropertyGroup>
+</Project>
